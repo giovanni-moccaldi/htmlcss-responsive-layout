@@ -1,0 +1,164 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.starter img{
+    width: 50px;
+    height: 50px;
+}
+.colonna-down img{
+    width: 150px;
+    height: 50px;
+}
+.big-col img {
+    width: 150px;
+    height: 50px;
+}
+.starter{
+    height: 80px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content:space-between;
+}
+.starter .img{
+    width: 100%;
+}
+.nav{
+    display: flex;
+}
+/*main*/
+
+.colonna{
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+   
+    
+    
+}
+.big-col{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+}
+.colonna-down{
+width: 200px;
+height: 200px;
+border: 1px radius black;
+background-color: aqua;
+text-align: center;
+}
+
+.strategy img{
+    width: 200px;
+    height: 230px;
+}
+
+/*second-main*/
+.purple{
+    background-color: blueviolet;
+}
+
+.app img{
+    width: 150px;
+    height: 150px;
+}
+.second-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+   
+}
+.strategy img{
+    width: 200px;
+    height: 200px;
+}
+.app{
+    border: 1 px solid black;
+    width: 150px;
+    height: 300px;
+    background-color: white;
+    margin-top: 150px;
+    
+    
+}
+.strategy{
+    width: 300px;
+    height: 300px;
+    
+}
+
+/*third-main*/
+.contenitore{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.schema img{
+   width: 150px;
+   height: 150px;
+}
+
+
+.schema{
+    display: flex;
+    width: 80%;
+    height: 150px;
+    background-color: blueviolet;
+    align-items: center;
+}
+
+/*fourth-main*/
+.fourth-main{
+    text-align: center;
+    
+}
+.righa{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.schema2{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+/*fifth-main*/
+.schema5{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about{
+    width: 300px;
+    height: 350px;
+}
+.descrizione{
+    width: 150px;
+    height: 350px;
+}
+/*sisxth-main*/
+
+/*media*/
+
+
+@media screen and (max-width: 768px) {
+   .container{
+    width: 100%;
+   }
+}
+@media screen and (max-width: 480px) {
+    .container {
+        
+        
+    }
+}
