@@ -40,12 +40,12 @@
     
 }
 .big-col{
-    width: 400px;
+    width: 450px;
     height: 200px;
     background-color: aqua;
 }
 .colonna-down{
-width: 200px;
+width: 230px;
 height: 200px;
 border: 1px radius black;
 background-color: aqua;
@@ -70,9 +70,11 @@ text-align: center;
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    flex-wrap: wrap;
 
    
 }
+
 .strategy img{
     width: 200px;
     height: 200px;
@@ -141,24 +143,52 @@ text-align: center;
 .about{
     width: 300px;
     height: 350px;
+    
 }
 .descrizione{
     width: 150px;
     height: 350px;
 }
 /*sisxth-main*/
-
+.free {
+    text-align: center;
+}
+.black{
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    color: white;
+    
+}
 /*media*/
 
 
+.footer{
+    text-align: center;
+}
 @media screen and (max-width: 768px) {
    .container{
     width: 100%;
    }
+   .second-main{
+    flex-direction: column;
+    align-items: center;
+    
+   }
+ 
 }
 @media screen and (max-width: 480px) {
     .container {
-        
-        
+            width: 100%;
+        }
+    .second-main{
+        flex-direction: column;
+    }
+    .schema5{
+        flex-direction: column;
+    }
+    .colonna{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
