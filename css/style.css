@@ -7,7 +7,9 @@ p{
     font-family: 'Didact Gothic',
             sans-serif;
 }
-
+.burger{
+    display: none;;
+}
 h3{
     color: rgb(45, 45, 235);
     font-size: 20px;
@@ -20,8 +22,10 @@ h2{
 button{
     width: 90px;
     height: 30px;
-    background-color:blueviolet;
+    background-color:white;
     border-radius: 15%;
+    border: 0ch;
+    margin-left: 5px;
 }
 .starter img{
     width: 50px;
@@ -52,6 +56,12 @@ button{
     align-items: center;
     padding:10px
 }
+.testa ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
 /*main*/
 .big-col button {
     width: 80px;
@@ -60,8 +70,8 @@ button{
     border-radius: 10%;
     color: white;
     margin: 20px;
-    position: relative;
-    bottom: 30px;
+    
+    
 }
 
 .colonna{
@@ -74,8 +84,8 @@ button{
     
 }
 .big-col{
-    width: 450px;
-    height: 200px;
+    width: 480px;
+    
     background-color: aqua;
     border-radius: 5%;
     padding: 5px;
@@ -93,9 +103,10 @@ border-radius: 5%;
     height: 50px;
 }
 
+
 .strategy img{
-    width: 200px;
-    height: 230px;
+    width:260px;
+    height:320px;
 }
 
 /*second-main*/
@@ -108,6 +119,7 @@ border-radius: 5%;
 .app img{
     width: 150px;
     height: 150px;
+    border-radius: 50%;
 }
 .second-main{
     display: flex;
@@ -118,10 +130,9 @@ border-radius: 5%;
    
 }
 
-.strategy img{
-    width: 200px;
-    height: 200px;
-}
+
+    
+
 .app{
     border: 1 px solid black;
     width: 250px;
@@ -149,6 +160,7 @@ border-radius: 5%;
 .schema img{
    width: 150px;
    height: 150px;
+   border-radius:50%;
 }
 
 
@@ -160,11 +172,13 @@ border-radius: 5%;
     align-items: center;
     margin: 20px;
     border-radius: 5%;
+    margin-left: auto;
 }
 
 /*fourth-main*/
 .fourth-main h3{
     color: white;
+    font-size: 40px;
 }
 .fourth-main{
     text-align: center;
@@ -173,6 +187,7 @@ border-radius: 5%;
 .fourth-main h1{
     font-size: 40px;
     padding: 5px;
+   
 }
 .schema  p{
     color: white;
@@ -183,6 +198,7 @@ border-radius: 5%;
     text-align: left;
     gap: 20px;
     flex-wrap: wrap;
+    
     
 }
 .schema2{
@@ -210,13 +226,36 @@ border-radius: 5%;
     height: 350px;
     
 }
+.descrizione img{
+    border-radius: 50%;
+}
+.descrizione button {
+    width: 90px;
+    height: 30px;
+    background-color: rgb(119, 56, 164);
+    border-radius: 15%;
+    border: 0ch;
+    margin-left: 5px;
+    color: white;
+    
+}
 .descrizione{
-    width: 150px;
+    width: 210px;
     height: 350px;
+
+    
 }
 /*sisxth-main*/
 .free {
     text-align: center;
+}
+.free button {
+    width: 90px;
+    height: 30px;
+    background-color:violet;
+    border-radius: 15%;
+    border: 0ch;
+    margin-left: 5px;
 }
 .black{
     background-color: black;
@@ -240,6 +279,12 @@ border-radius: 5%;
     align-items: center;
     
    }
+   .nav{
+    display: none;
+   }
+   .burger{
+    display: block;
+   }
  
 }
 @media screen and (max-width: 480px) {
@@ -255,5 +300,17 @@ border-radius: 5%;
     .colonna{
         display: flex;
         flex-wrap: wrap;
+        
+    }
+    .colonna-down{
+     width: 100%;
+     
+    }
+    .about{
+        width: 100%;
+    }
+    .descrizione{
+        width: 100%;
+        margin-bottom: 40px;
     }
 }
