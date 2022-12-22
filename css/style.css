@@ -92,15 +92,16 @@ button{
 }
 .colonna-down{
 width: 230px;
-height: 200px;
+height: 280px;
 border: 1px radius black;
 background-color: aqua;
 text-align: center;
 border-radius: 5%;
 }
 .colonna-down img{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
+    padding-top: 10px;
 }
 
 
@@ -161,6 +162,7 @@ border-radius: 5%;
    width: 150px;
    height: 150px;
    border-radius:50%;
+   object-fit: cover;
 }
 
 
@@ -176,9 +178,18 @@ border-radius: 5%;
 }
 
 /*fourth-main*/
-.fourth-main h3{
+#bianco{
     color: white;
     font-size: 40px;
+}
+.fourth-main h3 {
+    color:purple;
+    font-size: 40px;
+}
+.fourth-main h1 {
+    color: purple;
+    font-size: 30px;
+    
 }
 .fourth-main{
     text-align: center;
@@ -228,11 +239,12 @@ border-radius: 5%;
 }
 .descrizione img{
     border-radius: 50%;
+    object-fit: cover;
 }
 .descrizione button {
     width: 90px;
     height: 30px;
-    background-color: rgb(119, 56, 164);
+    background-color:purple;
     border-radius: 15%;
     border: 0ch;
     margin-left: 5px;
@@ -245,7 +257,12 @@ border-radius: 5%;
 
     
 }
+.free h1{
+    color: rgb(181, 135, 36);
+    font-size: 140px;
+}
 /*sisxth-main*/
+
 .free {
     text-align: center;
 }
@@ -263,6 +280,9 @@ border-radius: 5%;
     text-align: center;
     color: white;
     
+}
+#viola{
+    color: blueviolet;
 }
 /*media*/
 
@@ -302,10 +322,7 @@ border-radius: 5%;
         flex-wrap: wrap;
         
     }
-    .colonna-down{
-     width: 100%;
-     
-    }
+    
     .about{
         width: 100%;
     }
